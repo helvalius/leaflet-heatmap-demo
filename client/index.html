@@ -3,15 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Live Reload</title>
+  <title>Heatmap Demo</title>
 
   <!-- inject:css -->
   <!-- endinject -->
 
+
 </head>
 <body>
+
+
+
+<div id="map" style="width: 1200px; height: 800px"></div>
+
+
+This is our CSV to heatmap! See the alert for the data.
+
+</body>
+</html>
 <h1 id="title"></h1>
   <!-- inject:js -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+
+  <script src="app/app.js"></script>
+
   <!-- endinject -->
 </body>
 </html>
