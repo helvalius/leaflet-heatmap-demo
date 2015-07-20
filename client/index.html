@@ -2,32 +2,33 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Heatmap Demo</title>
 
-  <!-- inject:css -->
-  <!-- endinject -->
+  <link rel="stylesheet" href="app/app.css">
 
+  <link rel="stylesheet" href="components/leaflet/dist/leaflet.css" />
 
 </head>
 <body>
 
 
-
-<div id="map" style="width: 1200px; height: 800px"></div>
-
-
-This is our CSV to heatmap! See the alert for the data.
+  <div id="map"></div>
 
 </body>
 </html>
 <h1 id="title"></h1>
-  <!-- inject:js -->
 
 
+  <script src="components/leaflet/dist/leaflet.js"></script>
+  <script src="components/esri-leaflet/dist/esri-leaflet.js"></script>
+
+  <script src="app/leaflet-heat.js"></script>
+  <script src="components/esri-leaflet-heatmap-feature-layer/dist/esri-leaflet-heatmap-feature-layer.js"></script>
 
   <script src="app/app.js"></script>
 
-  <!-- endinject -->
+
 </body>
 </html>
